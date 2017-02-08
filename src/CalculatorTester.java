@@ -55,7 +55,6 @@ public class CalculatorTester {
 	    thrown.expect(ArithmeticException.class);
 	    thrown.expectMessage("integer overflow");
 	    calculatorTester.pressAdd(caseTwoHundredMillion, caseTwoBillion);
-	    calculatorTester.pressMultiply(caseTwoBillion, caseTwoHundredMillion);
 	}
 	@Test
 	public void subtractExceptionMessage() throws ArithmeticException {
