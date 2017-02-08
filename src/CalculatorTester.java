@@ -38,7 +38,7 @@ public class CalculatorTester {
 	
 	@Test
 	public void testpressDivide(){
-		assertEquals(1, calculatorTester.pressDivide(caseOne, caseTwo));
+		assertEquals(1, calculatorTester.pressDivide(2, 3));
 	}
 
 }
