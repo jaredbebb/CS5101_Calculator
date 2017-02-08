@@ -70,5 +70,4 @@ public class CalculatorTester {
 	    thrown.expectMessage("integer overflow");
 	    calculatorTester.pressMultiply(caseTwoBillion, caseTwoHundredMillion);
 	}
-
 }

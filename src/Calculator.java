@@ -18,6 +18,4 @@ public class Calculator {
 		int equals = (int) Math.round(aF/bF);
 		return equals;
 	}
-	public static void main(String[] args){
-	}
 }
